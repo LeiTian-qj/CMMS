@@ -13,5 +13,7 @@ Evaluate CMMS on the MSRC-VOC2007 dataset.
 demo_officehome.m
 Evaluate CMMS on the Office-Home dataset.
 
-Note: All experiments are conducted by Matlab2017b on a Windows 10 machine with
+All experiments are conducted by Matlab2017b on a Windows 10 machine with
 Intel 3.00GHz CPU, 16.0GB RAM.
+
+The features of the Office-Home dataset need to be downloaded.
