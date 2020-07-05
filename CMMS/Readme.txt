@@ -13,7 +13,14 @@ Evaluate CMMS on the MSRC-VOC2007 dataset.
 demo_officehome.m
 Evaluate CMMS on the Office-Home dataset.
 
-All experiments are conducted by Matlab2017b on a Windows 10 machine with
-Intel 3.00GHz CPU, 16.0GB RAM.
+demo_digit.m
+Evaluate CMMS on the MNIST-USPS dataset.
 
-The features of the Office-Home dataset need to be downloaded from the corresponding link.
+demo_visda2017.m
+Evaluate CMMS on the Visda2017 dataset.
+
+All experiments except for Visda2017 are conducted by Matlab2017b on a Windows 10 machine with Intel 3.00GHz CPU, 16.0GB RAM.
+
+The experiments on Visda2017 dataset are conducted by MATLAB R2016b on a standard Linux server with Intel(R) Xeon(R) CPU E5-2678 v3 @ 2.50GHz CPU, 251GB RAM
+
+The features of the Office-Home/MNIST-USPS/Visda2017 datasets need to be downloaded from the corresponding link.
