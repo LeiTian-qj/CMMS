@@ -13,3 +13,9 @@ fprintf('\n');
 
 fprintf('Office-Home dataset\n');
 demo_officehome
+
+fprintf('MNIST-USPS dataset\n');
+demo_digit
+
+fprintf('Visda2017 dataset\n');
+demo_visda2017
