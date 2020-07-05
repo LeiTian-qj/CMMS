@@ -19,7 +19,7 @@ for i = 1: 2
     fts = fts ./ repmat(sum(fts,2),1,size(fts,2)); 
     Xt = double((zscore(fts,1))');
     Yt = data(:,2049)+1;
-    Acc = KMDA(Xs,Xt,Ys,Yt,options);
+    Acc = CMMS(Xs,Xt,Ys,Yt,options);
     fprintf('%s --> %s: %.1f%% accuracy\n', src, tgt, Acc * 100);
     avarage_acc = avarage_acc + Acc*100;
 end
