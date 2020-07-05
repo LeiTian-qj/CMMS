@@ -1,6 +1,9 @@
 CMMS.m
 Core codes of CMMS algorithm.
 
+CMMS_lg.m
+Core codes of CMMS algorithm on large-scale dataset.
+
 demo_office31.m
 Evaluate CMMS on the Office31 dataset.
 
